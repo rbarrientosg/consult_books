@@ -86,3 +86,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Documentación generada con JSDoc
+src/public/docs/

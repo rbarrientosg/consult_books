@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #252525;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+
+h1 {
+  color: bisque;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#input-search {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 600px;
+}
+
+#input-search > label {
+  color: burlywood;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#input-search > input[type="text"] {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #ffffff80;
+  background-color: #ffffff80;
+  font-size: 15px;
+}
+
+#input-search > button {
+  padding: 5px;
+  font-size: 15px;
+  color: bisque;
+  border-radius: 8px;
+  background-color: rgb(2, 68, 0);
+}
+
+#output-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  gap: 10px;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 570px;
+  height: 200px;
+  border: 1px solid #ffffff80;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.book > div {
+  height: 100%;
+}
+
+#book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px;
+}
+
+.book-atr {
+  color: white;
+  font-weight: bold;
+}
+
+.description {
+  color: #646464;
+  font-style: italic;
+}
+
+#book-cover {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+#book-cover > img {
+  height: 100%;
+}
+
+#doc-link {
+  transition: .3s;
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+#doc-link:hover {
+  color: #646464;
+}
