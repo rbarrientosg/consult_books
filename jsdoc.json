@@ -1,0 +1,25 @@
+{
+  "plugins": ["plugins/markdown"],
+  "markdown": {
+    "hardwrap": false,
+    "idInHeadings": true
+  },
+  "source": {
+    "include": ["app.js", "src"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules|src/public/docs|src/public/css|src/views)"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./src/public/docs",
+    "tutorials": "./src/public/tutorials",
+    "template": "./node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+        "default_theme": "dark"
+    }
+  }
+}
